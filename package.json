@@ -4,7 +4,7 @@
   "description": "Demo API with Postgre-Sql, SQLuelized and unit test",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --exec bable-node ./api/index.js"
+    "dev": "nodemon --exec babel-node ./api/index.js"
   },
   "repository": {
     "type": "git",
