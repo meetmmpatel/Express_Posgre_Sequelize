@@ -1,0 +1,37 @@
+{
+  "name": "book-app-api",
+  "version": "1.0.0",
+  "description": "Demo API with Postgre-Sql, SQLuelized and unit test",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec bable-node ./api/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meetmmpatel/Express_Posgre_Sequelize.git"
+  },
+  "author": "Milan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meetmmpatel/Express_Posgre_Sequelize/issues"
+  },
+  "homepage": "https://github.com/meetmmpatel/Express_Posgre_Sequelize#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.6.2",
+    "@babel/core": "^7.6.2",
+    "@babel/node": "^7.6.2",
+    "@babel/plugin-transform-runtime": "^7.6.2",
+    "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "nodemon": "^1.19.3"
+  }
+}
